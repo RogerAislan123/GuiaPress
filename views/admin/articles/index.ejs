@@ -18,10 +18,10 @@
         </thead>
         <tbody>
             <% articles.forEach(articles => { %>
-                <td><%articles.id%></td>
-                <td><%articles.título%></td>
-                <td><%articles.slug%></td>
-                <td><%articles.categoryId%></td>
+                <td><%= articles.id%></td>
+                <td><%= articles.title%></td>
+                <td><%= articles.slug%></td>
+                <td><%= articles.categoryId%></td>
                 <td>Ações</td>
             <% }) %>
         </tbody>
