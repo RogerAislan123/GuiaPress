@@ -11,7 +11,7 @@ const Article = connection.define('articles',{
         type: Sequelize.STRING,
         allowNull: false
     },
-    budy: {
+    body: {
         type: Sequelize.TEXT,
         allowNull: false
     }
