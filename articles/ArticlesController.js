@@ -67,5 +67,4 @@ router.get("/admin/articles/edit/:id", (req, res) => {
         res.redirect("/");
     });
 });
-
 module.exports = router;
